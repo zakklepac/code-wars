@@ -1,0 +1,11 @@
+function fakeBin(x){
+    let nib = ''; 
+      for (let i = 0; i < x.length; i++) {
+        if (Number(x[i]) >= 5) {
+            nib += '1';
+        } else {
+            nib += '0';
+        }
+    }
+    return nib; 
+  }

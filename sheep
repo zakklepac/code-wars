@@ -1,0 +1,6 @@
+var countSheep = function (num){
+let sleep = "";
+for(let i=1; i <= num; i++) 
+{ sleep+=`${i} sheep...`; }
+return sleep;
+}
